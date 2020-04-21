@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="99424" started-at="2020-04-17T17:06:04 CDT" finished-at="2020-04-17T17:07:44 CDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="99424" started-at="2020-04-17T17:06:04 CDT" finished-at="2020-04-17T17:07:44 CDT">
+      <class name="Automation.ValidateLoginTest">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:Automation.ValidateLoginTest@3ba9ad43]" name="Initialize" is-config="true" duration-ms="82457" started-at="2020-04-17T17:06:04 CDT" finished-at="2020-04-17T17:07:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="basePageNav()[pri:0, instance:Automation.ValidateLoginTest@3ba9ad43]" name="basePageNav" duration-ms="16722" started-at="2020-04-17T17:07:27 CDT" finished-at="2020-04-17T17:07:44 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNav -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Automation.ValidateLoginTest@3ba9ad43]" name="TearDown" is-config="true" duration-ms="213" started-at="2020-04-17T17:07:44 CDT" finished-at="2020-04-17T17:07:44 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Automation.ValidateLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
