@@ -8,6 +8,7 @@
 	<test name="Test">
 		<classes>
 			<class name="Automation.ValidateLoginTest" />
+			<class name="Automation.ValidateSearchTest"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
