@@ -32,14 +32,14 @@ public class base {
 				fullpath);
 		String browserName = System.getProperty("browser");
 		prop.load(fi);
-		 //String browserName = prop.getProperty("browser");
+		// String browserName = prop.getProperty("browser");
 
 		if (browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
 					"C:\\Users\\699693\\Documents\\Cognizant\\Automation Course\\Automation Course\\src\\Executables\\chromedriver.exe");
-			ChromeOptions options = new ChromeOptions();
+			//ChromeOptions options = new ChromeOptions();
 			//options.addArguments("headless");
-			driver = new ChromeDriver(options);
+			driver = new ChromeDriver();
 
 		} else if (browserName.equals("firefox")) {
 			driver = new FirefoxDriver();
