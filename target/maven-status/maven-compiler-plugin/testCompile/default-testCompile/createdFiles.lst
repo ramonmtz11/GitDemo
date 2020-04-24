@@ -1,4 +1,6 @@
 Automation\Listeners.class
 Automation\ValidateSearchTest.class
 Automation\ValidateLoginTest.class
+cucumberOptions\TestRunner.class
+resources\stepDefinition.class
 Automation\AppTest.class
