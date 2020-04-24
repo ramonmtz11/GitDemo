@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Automation.ValidateSearchTest">
+      <class name="Automation.ValidateLoginTest">
         <methods>
+          <include name="TearDown"/>
           <include name="basePageNav"/>
           <include name="Initialize"/>
-          <include name="TearDown"/>
         </methods>
-      </class> <!-- Automation.ValidateSearchTest -->
+      </class> <!-- Automation.ValidateLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

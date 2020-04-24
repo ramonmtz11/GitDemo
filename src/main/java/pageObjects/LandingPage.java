@@ -15,7 +15,7 @@ public class LandingPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(id = "login")
+	@FindBy(linkText = "Ingresa")
 	WebElement getLogin;
 
 	public WebElement LoginButton() {
@@ -31,11 +31,47 @@ public class LandingPage {
 	}
 
 	@FindBy(id = "nav-cart")
-	
+
 	WebElement inflable;
 
 	public WebElement Resultado() {
 		return inflable;
+
+	}
+
+	@FindBy(css = ".nav-menu-cp.nav-menu-cp-logged")
+
+	WebElement zipcode;
+
+	public WebElement ZipCode() {
+		return zipcode;
+
+	}
+	
+	@FindBy(css = ".nav-menu-link-cp")
+
+	WebElement zipcode2;
+
+	public WebElement ZipCode2() {
+		return zipcode2;
+
+	}
+
+	@FindBy(name = "zipcode")
+
+	WebElement zipcodebox;
+
+	public WebElement ZipCodeBox() {
+		return zipcodebox;
+
+	}
+
+	@FindBy(css = "button[type='submit']")
+
+	WebElement usar;
+
+	public WebElement UsarButton() {
+		return usar;
 
 	}
 

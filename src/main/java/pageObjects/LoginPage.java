@@ -21,29 +21,29 @@ public class LoginPage {
 	public WebElement Username() {
 		return usernamebox;
 	}
-	
-	@FindBy(css= "button[type=submit]")
+
+	@FindBy(css = "button[type=submit]")
 	WebElement continuebtn;
 
 	public WebElement ContinueButton() {
 		return continuebtn;
 	}
-	
-	@FindBy(css= "input[id=password]")
+
+	@FindBy(css = "input[id=password]")
 	WebElement pwd;
 
 	public WebElement Password() {
 		return pwd;
 	}
-	
-	@FindBy(css="span[id=action-complete]")
+
+	@FindBy(css = "button[id=action-complete]")
 	WebElement login;
-	
-	public WebElement LoginButton(){
+
+	public WebElement LoginButton() {
 		return login;
 	}
-	
-	@FindBy(className= "method-selector_title")
+
+	@FindBy(className = "method-selector__title")
 	WebElement verif;
 
 	public WebElement VerificationText() {

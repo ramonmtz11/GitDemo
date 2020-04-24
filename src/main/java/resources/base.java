@@ -23,10 +23,13 @@ public class base {
 	public Properties prop;
 
 	public WebDriver initializeDriver() throws IOException {
-
+		
+		String basedir= System.getProperty("user.dir");
+		String path = "\\src\\main\\java\\resources\\data.properties";
+		String fullpath = basedir.concat(path);
 		prop = new Properties();
 		FileInputStream fi = new FileInputStream(
-				"C:\\Users\\699693\\AutomationFramework\\src\\main\\java\\resources\\data.properties");
+				fullpath);
 		//String browserName = System.getProperty("browser");
 		prop.load(fi);
 		 String browserName = prop.getProperty("browser");

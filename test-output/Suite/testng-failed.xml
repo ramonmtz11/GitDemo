@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Automation.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Automation.ValidateLoginTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="basePageNav"/>
+          <include name="Initialize"/>
+        </methods>
+      </class> <!-- Automation.ValidateLoginTest -->
+      <class name="Automation.ValidateSearchTest">
+        <methods>
+          <include name="basePageNav"/>
+          <include name="Initialize"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Automation.ValidateSearchTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
