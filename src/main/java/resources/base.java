@@ -39,7 +39,7 @@ public class base {
 					"C:\\Users\\699693\\Documents\\Cognizant\\Automation Course\\Automation Course\\src\\Executables\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			//options.addArguments("headless");
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(options);
 
 		} else if (browserName.equals("firefox")) {
 			driver = new FirefoxDriver();
