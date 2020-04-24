@@ -34,9 +34,9 @@ public class base {
 		if (browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
 					"C:\\Users\\699693\\Documents\\Cognizant\\Automation Course\\Automation Course\\src\\Executables\\chromedriver.exe");
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("headless");
-			driver = new ChromeDriver(options);
+			//ChromeOptions options = new ChromeOptions();
+			//options.addArguments("headless");
+			driver = new ChromeDriver();
 
 		} else if (browserName.equals("firefox")) {
 			driver = new FirefoxDriver();

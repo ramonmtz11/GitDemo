@@ -15,35 +15,35 @@ public class LoginPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(css = "input[name=email]")
+	@FindBy(css = "input[id=user_id]")
 	WebElement usernamebox;
 
 	public WebElement Username() {
 		return usernamebox;
 	}
 	
-	@FindBy(css= "input[id=continue]")
+	@FindBy(css= "button[type=submit]")
 	WebElement continuebtn;
 
 	public WebElement ContinueButton() {
 		return continuebtn;
 	}
 	
-	@FindBy(css= "input[id=ap_password]")
+	@FindBy(css= "input[id=password]")
 	WebElement pwd;
 
 	public WebElement Password() {
 		return pwd;
 	}
 	
-	@FindBy(css="span[id=auth-signin-button]")
+	@FindBy(css="span[id=action-complete]")
 	WebElement login;
 	
 	public WebElement LoginButton(){
 		return login;
 	}
 	
-	@FindBy(className= "a-list-item")
+	@FindBy(className= "method-selector_title")
 	WebElement verif;
 
 	public WebElement VerificationText() {

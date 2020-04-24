@@ -15,14 +15,14 @@ public class LandingPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(id = "nav-link-accountList")
+	@FindBy(id = "login")
 	WebElement getLogin;
 
 	public WebElement LoginButton() {
 		return getLogin;
 	}
 
-	@FindBy(id = "twotabsearchtextbox")
+	@FindBy(name = "as_word")
 	WebElement search;
 
 	public WebElement SearchBar() {
@@ -30,7 +30,7 @@ public class LandingPage {
 
 	}
 
-	@FindBy(id = "['search']/span/div/span/h1/div/div[1]/div/div")
+	@FindBy(id = "nav-cart")
 	
 	WebElement inflable;
 

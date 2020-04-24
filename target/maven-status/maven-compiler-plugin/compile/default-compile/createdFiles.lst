@@ -1,4 +1,4 @@
 Automation\App.class
-resources\base.class
 pageObjects\LandingPage.class
 pageObjects\LoginPage.class
+resources\base.class
